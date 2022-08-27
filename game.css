@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Condensed&display=swap');
+
+canvas {
+    border: 6px double black;
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-top: 150px;
+  }
+
+.firstBanner p {
+    font-size: 28px;
+    color: #3b1172;
+    padding: 20px;
+}
+
+.secondBanner p {
+    font-size: 28px;
+    color: #3b1172;
+    padding: 20px;
+}
+
+.thirdBanner p {
+    font-size: 28px;
+    color: #3b1172;
+    padding: 20px;
+}
+
+.thirdBanner p {
+    font-size: 28px;
+    color: #3b1172;
+    padding: 20px;
+}
+
+body {
+    background-color: #6A5ACD;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    color: white;
+}
+
+#res{
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+  display: block;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: rgb(57, 0, 95);
+}
+
+.next{
+  margin-top: 180px;
+}
+
+.next a{
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 30px;
+    display: block;
+    background-color: rgb(57, 0, 95);
+    margin-left: 180px;
+    text-decoration: none;
+    color: white;
+}
+
+.next #last {
+    margin-left: 180px;
+    text-decoration: none;
+    color: white;
+}
+
+.next a:hover {
+    background-color: #6A5ACD;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.tema {
+    background-color: rgb(0, 0, 0);
+    width: 500px;
+    margin: auto;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.firstBanner {
+    background-color:rgb(240, 240, 209);
+    width: 600px;
+    height: 700px;
+    border: 3px solid rgb(55, 0, 80);
+    border-radius: 50px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 130px;
+    z-index: 5;
+    opacity: 0;
+}
+
+.secondBanner {
+    background-color: rgb(240, 240, 209);
+    width: 600px;
+    height: 700px;
+    border: 3px solid rgb(55, 0, 80);
+    border-radius: 50px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 130px;
+    z-index: 5;
+    opacity: 0;
+}
+
+.thirdBanner {
+    background-color: rgb(240, 240, 209);
+    width: 600px;
+    height: 700px;
+    border: 3px solid rgb(55, 0, 80);
+    border-radius: 50px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 130px;
+    z-index: 5;
+    opacity: 0;
+}
+
+.fourthBanner {
+    background-color: rgb(240, 240, 209);
+    width: 600px;
+    height: 700px;
+    border: 3px solid rgb(55, 0, 80);
+    border-radius: 50px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 130px;
+    z-index: 5;
+    opacity: 0;
+}
+
+.continue {
+    width: 200px;
+    height: 60px;
+    border: 1px solid rgb(193, 167, 207);
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+    background-color: rgb(55, 0, 92);
+    margin-top: 10px;
+    position: fixed;
+    margin-left: 200px;
+}
+
+.continue a {
+    margin-left: 52px;
+    text-decoration: none;
+    color: white;
+}
+
+.continue:hover {
+    background-color: #6A5ACD;
+}
+
+#back{
+  cursor: pointer;
+  margin-left: 0px;
+}
